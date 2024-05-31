@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: 500px;
+    height: 40px;
+    background-color: rgb(120, 124, 120);
+    border-radius: 10px;
+    gap: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: greenyellow;
+}
+
+button:hover{
+    background-color: rgb(112, 184, 4);
+    color: white;
+}
