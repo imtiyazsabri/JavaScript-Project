@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: wheat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 50px;
+    position: relative;
+}
+
+.inpt-box{
+    height: 50px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 50px;
+    border: 0;
+    outline: none;
+    background: transparent;
+    width: 0; 
+}
+
+.search-bar{
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    border-radius: 50px;
+    background-color: beige;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.active .inpt-box{
+    width: 300px;
+    padding: 10px;
+    background-color: white;
+    transition: 2s;
+}
+
+.active .search-bar{
+    background-color: beige;
+    transform: translate(250px);
+    transition: 2s;
+}
